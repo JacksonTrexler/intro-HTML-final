@@ -1,0 +1,22 @@
+header {
+	background-color: #d2b48c;
+	font-size: 90%;
+	color: #604d00;
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: center;
+	padding: 5px;
+}
+
+body {
+	background-color: #efdc8d;
+}
+p {
+	font-family: "Times New Roman", serif;
+	text-indent: 50px;
+}
+div { 
+	background-color: #c4af5c;
+}
+img {
+	padding: 5px;
+}
