@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="finalcss.css">
+	<title>Contact Clothing Store</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Clothing Store has all of the latest styles, come in and buy or sell today!">
+</head>
+<body>
+	<div id="wrapper">
+		<header></header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="product.html">Products</a></li>
+				<li style="font-weight: bold;"><a href="contact.html">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+		<div id="content">
+			<img class="floatright" src="File_001.gif" height="200" width="300" alt="main image">
+			<main>
+				<p>If you have any questions about the store or employment, please fill out the form below.</p>
+				<form method="post" action="contact.html" onsubmit = "submitFunction()">
+					<label for="myName">Name:</label>
+					<input type="text" name="myName" id="myName">
+					<label for="myEmail">E-mail:</label>
+					<input type="email" name="myEmail" id="myEmail">
+					<label for="myMessage">Message:</label>
+					<textarea name="myMessage" id="myMessage" rows="2" cols="20"></textarea>
+					<input type="submit" value="Submit">
+				</form>
+				<br>
+				<p>Here are some things we are looking for in job applicants:</p>
+				<ol>
+					<li>One year of experience in desired job</li>
+					<li>Reliable method of transportation</li>
+					<li>Good communication skills</li>
+				</ol>
+			</main>
+		</div>
+	<footer>
+		Copyright &copy; 2020 Clothing Store<br>
+		<a href="mailto:jtrexler25@gmail.com">jtrexler25@gmail.com</a>
+	</footer>
+	</div>
+</body>
+<script>
+	function submitFunction() {
+		alert("Form has been submitted");
+	}
+</script>
+</html>
