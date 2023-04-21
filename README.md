@@ -1,2 +1,1 @@
-# Portfolio
-Academic and personal project of years past
+Final for intro to HTML and CSS
